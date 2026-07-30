@@ -1,0 +1,95 @@
+.header {
+  opacity: 0;
+  transform: translateY(-50px);
+  transition: 1s;
+}
+
+.header.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+.box {
+  width: 90%;
+  height: 600px;
+  background: white;
+  margin: 50px auto;
+  border-radius: 30px;
+
+  animation: slideFade 1s ease-out forwards;
+}
+
+@keyframes slideFade {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.y2 {
+  animation: fadeUp 1.5s ease forwards;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-text {
+  animation: fadeUp 1.5s ease forwards;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.y1{
+  animation: fadeUp 1.5s ease forwards;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.ekipresim{
+   animation: fadeUp 1.5s ease forwards;
+}
+
+.gallery{
+   animation: fadeUp 1.5s ease forwards;
+}
+
+.galeribaslik{
+   animation: fadeUp 1.5s ease forwards;
+}
+
+.member-card{
+  animation: fadeUp 1.5s ease forwards;
+}
+
